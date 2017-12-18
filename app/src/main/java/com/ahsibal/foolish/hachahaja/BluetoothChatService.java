@@ -38,7 +38,7 @@ public class BluetoothChatService {
     private static final String TAG = "BluetoothService";
 
     private static final String NAME = "BluetoothChat";
-    // Intent request code
+    // Intent request code 
     private static final int REQUEST_CONNECT_DEVICE = 1;
     private static final int REQUEST_ENABLE_BT = 2;
 
