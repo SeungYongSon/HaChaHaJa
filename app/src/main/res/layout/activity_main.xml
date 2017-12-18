@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/backgroud_icon" />
+
+    <!--<TextView
+        android:id="@+id/textView"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="하차하자"
+        android:textColor="@color/colorAccent"
+        android:textSize="100dp" />-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/cheer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:background="@drawable/rounded"
+        android:gravity="center_horizontal"
+        android:text="시작하기"
+        android:textColor="#ffff"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/cheer"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:gravity="center_horizontal"
+        android:text="- 버스에서 자는 당신을 위한 친구 -"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+</RelativeLayout>

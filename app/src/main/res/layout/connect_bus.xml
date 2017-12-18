@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary">
+
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="목적지: "
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/BusStopL" />-->
+
+    <ImageView
+        android:id="@+id/Blue"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignTop="@+id/Suceess"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bluetooth"
+        android:gravity="center_horizontal"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/Suceess"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignStart="@+id/Blue"
+        android:layout_below="@+id/FailorSucess"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/checkdone"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/FailorSucess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="거의 다 됐어요!!"
+        android:textColor="@color/colorAccent"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/Wwwcontents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Blue"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="위에 블루투스 그림을 \n눌러 지금 탑승한 버스의 블루투스와 연결하세요.  :)"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/war"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Wwwcontents"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="(주의: 앱을 강제종료하거나 블루투스를 끄지 마세요! 지금까지 한 작업이 사라집니다.)"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp" />
+</RelativeLayout>
