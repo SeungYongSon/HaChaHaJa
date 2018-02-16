@@ -16,3 +16,40 @@ HCE와 NFC모듈과의 통신으로 출발지와 목적지를 분명하게 서�
 
 특히, 기존에 버스를 타는 것처럼 교통카드를 찍는 시스템에  
 서버 연동과 알림 기능을 추가하여 사용자 편의를 고려한 것이므로, 시내버스의 기존 시스템과도 크게 다르지 않다. 
+
+
+![사진1](ProjectInfo/1.png "1")
+
+![사진2](ProjectInfo/2.png "2")
+
+![사진3](ProjectInfo/3.png "3")
+
+![사진4](ProjectInfo/4.png "4")
+
+![사진5](ProjectInfo/5.png "5")
+
+![사진6](ProjectInfo/6.png "6")
+
+![사진7](ProjectInfo/7.png "7")
+
+![사진8](ProjectInfo/8.png "8")
+
+![사진9](ProjectInfo/9.png "9")
+
+![사진10](ProjectInfo/10.png "10")
+
+![사진11](ProjectInfo/11.png "11")
+
+![사진12](ProjectInfo/12.png "12")
+
+![사진13](ProjectInfo/13.png "13")
+
+![사진14](ProjectInfo/14.png "14")
+
+![사진15](ProjectInfo/11.png "15")
+
+![사진16](ProjectInfo/16.png "16")
+
+![사진17](ProjectInfo/17.png "17")
+
+![사진18](ProjectInfo/19.png "18")
