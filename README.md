@@ -71,3 +71,11 @@ HCE와 NFC모듈과의 통신으로 출발지와 목적지를 분명하게 서�
 ![사진17](ProjectInfo/17.png "17")
 
 ![사진18](ProjectInfo/18.png "18")
+
+![사진19](ProjectInfo/19.png "19")
+
+![사진20](ProjectInfo/20.png "20")
+
+![사진21](ProjectInfo/21.png "21")
+
+![사진22](ProjectInfo/21.png "22")
